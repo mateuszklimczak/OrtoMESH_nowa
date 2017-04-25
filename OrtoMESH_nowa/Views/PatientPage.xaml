@@ -36,21 +36,20 @@
                 HorizontalOptions="CenterAndExpand"
 
                  />
-            <Button 
+           <!-- <Button 
                 Text="Calendar"
                 TextColor="Black"
                 FontSize="20"
                 HorizontalOptions="CenterAndExpand"
                 Clicked="CalendarPage_Clicked"
 
-                />
+                />-->
         </StackLayout>
         <Button 
             Text="Sign out" 
             TextColor="Black"
             FontSize="20"
-
-            Clicked="BackButton_Clicked"/>
+          	Clicked="BackButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>
