@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace OrtoMESH_nowa
+namespace OrtoMESH_nowa.Views
 {
     public partial class App : Application
     {
