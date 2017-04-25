@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH_nowa.Views.DoctorPage">
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+        <Button
+            Text="Add healing process"
+            TextColor="Black"
+            FontSize="30"
+            Clicked="AddProcessButton_Clicked"/>
+        <Button
+            Text="Search patient"
+            TextColor="Black"
+            FontSize="30"
+            Clicked="SearchPatientButton_Clicked"/>
+        <Button 
+            Text="Sign out" 
+            TextColor="Black" 
+            FontSize="20"
+            Clicked="Back_Clicked"
+            Margin="0,50,0,0"/>
+    </StackLayout>
+</ContentPage>

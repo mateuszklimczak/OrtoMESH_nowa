@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" BackgroundImage="iPad.24.04.jpg" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="OrtoMESH_nowa.Views.PatientPage">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label 
+            Text="Witaj Mateusz!" 
+            TextColor="Black"
+            Margin="0,140,0,0"
+            FontSize="40"
+            HorizontalOptions="CenterAndExpand"
+            VerticalOptions="StartAndExpand"/>
+        <Label 
+            Text="Twój dzień leczenia: 1"
+            FontSize="30"
+            HorizontalOptions="CenterAndExpand"/>
+        <ProgressBar 
+            Margin="20,0,20,0"
+            BackgroundColor="#85cefb"/>
+        <Button 
+            Text="Start"
+            FontAttributes="Bold"
+            BackgroundColor="#85cefb"
+            TextColor="White"
+            Clicked="Start_Clicked"
+            BorderRadius = "100"
+            WidthRequest="200"
+            HeightRequest="200"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Margin="0,50,0,70"/>
+        
+        <StackLayout Orientation="Horizontal">
+            <Button 
+                Text="Patient" 
+                TextColor="Black"
+                FontSize="20"
+                HorizontalOptions="CenterAndExpand"
+
+                 />
+            <Button 
+                Text="Calendar"
+                TextColor="Black"
+                FontSize="20"
+                HorizontalOptions="CenterAndExpand"
+                Clicked="CalendarPage_Clicked"
+
+                />
+        </StackLayout>
+        <Button 
+            Text="Sign out" 
+            TextColor="Black"
+            FontSize="20"
+
+            Clicked="BackButton_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
